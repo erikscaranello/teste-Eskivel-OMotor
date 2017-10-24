@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/test-full-stack
+    driver-class-name: com.mysql.jdbc.Driver
+    username: username
+    password: password
+    hikari:
+      idle-timeout: 10000
